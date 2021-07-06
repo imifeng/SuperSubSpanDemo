@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90dp"
+        android:text="Hello Supersubspan!"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_type_size"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="160dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="AbsoluteSizeSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_size"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_size"
+        app:layout_constraintTop_toTopOf="@+id/text_type_size" />
+
+    <TextView
+        android:id="@+id/text_type_color"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_type_size"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="ForegroundColorSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_color"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_color"
+        app:layout_constraintTop_toTopOf="@+id/text_type_color" />
+
+    <TextView
+        android:id="@+id/text_type_text"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_type_color"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="TextAppearanceSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_text"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_text"
+        app:layout_constraintTop_toTopOf="@+id/text_type_text" />
+
+    <TextView
+        android:id="@+id/text_type_background"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_type_text"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="BackgroundColorSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_background"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_background"
+        app:layout_constraintTop_toTopOf="@+id/text_type_background" />
+
+    <TextView
+        android:id="@+id/text_type_underline"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_type_background"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="UnderlineSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_underline"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_underline"
+        app:layout_constraintTop_toTopOf="@+id/text_type_underline" />
+
+    <TextView
+        android:id="@+id/text_type_strikethrough"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_type_underline"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="StrikethroughSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_strikethrough"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_strikethrough"
+        app:layout_constraintTop_toTopOf="@+id/text_type_strikethrough" />
+
+    <TextView
+        android:id="@+id/text_type_superscript"
+        style="@style/DateText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_type_strikethrough"
+        tools:text="Hello Supersubspan!" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="SuperscriptSpan:"
+        app:layout_constraintBottom_toBottomOf="@+id/text_type_superscript"
+        app:layout_constraintEnd_toStartOf="@+id/text_type_superscript"
+        app:layout_constraintTop_toTopOf="@+id/text_type_superscript" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

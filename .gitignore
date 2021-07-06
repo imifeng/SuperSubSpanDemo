@@ -1,8 +1,10 @@
 # Built application files
 *.apk
-*.aar
+#*.aar
 *.ap_
 *.aab
+*.keystore
+.DS_Store
 
 # Files for the ART/Dalvik VM
 *.dex
@@ -83,3 +85,11 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+
+# app/ellisapps.keystore
+/app/app.iml
+checkstyle-idea.xml
+Project_Default.xml
+.idea/
+/app/release
+/app/beta
